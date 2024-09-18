@@ -1,9 +1,9 @@
-import { Button, Spinner } from "@nextui-org/react";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="w-full h-[100vh]">
-      <Button>press me</Button>
+    <div className="">
+      <Header />
     </div>
   );
 }
