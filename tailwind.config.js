@@ -15,4 +15,4 @@ export const theme = {
     },
   },
 };
-export const plugins = [nextui()];
+export const plugins = [nextui(), require("@tailwindcss/forms")];
