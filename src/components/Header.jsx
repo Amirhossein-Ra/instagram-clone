@@ -1,10 +1,15 @@
 import { Image } from "@nextui-org/react";
 import React from "react";
-import { AiOutlineSearch } from "react-icons/ai";
+import {
+  AiFillHome,
+  AiFillPlusCircle,
+  AiOutlinePlusCircle,
+  AiOutlineSearch,
+} from "react-icons/ai";
 
 export default function () {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between mx-4 xl:mx-auto">
       <div className="cursor-pointer h-24 w-24 relative hidden lg:inline-grid  justify-center items-center">
         <Image
           src="https://logos-world.net/wp-content/uploads/2020/05/Instagram-Logo-2016-present.png"
@@ -27,7 +32,15 @@ export default function () {
           className="bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black focus:border-black rounded-md"
         />
       </div>
-      <h1>Right Side</h1>
+      <div className="flex items-center space-x-4 ">
+        <AiFillHome className="h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out hidden md:inline-flex" />
+        <AiOutlinePlusCircle className="h-7 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out" />
+        <img
+          src="./image/Profile.jpg"
+          alt="profile"
+          className="h-10 rounded-full cursor-pointer"
+        />
+      </div>
     </div>
   );
 }
