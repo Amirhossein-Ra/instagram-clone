@@ -2,7 +2,6 @@ import { Image } from "@nextui-org/react";
 import React from "react";
 import {
   AiFillHome,
-  AiFillPlusCircle,
   AiOutlinePlusCircle,
   AiOutlineSearch,
 } from "react-icons/ai";
