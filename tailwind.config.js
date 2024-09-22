@@ -15,4 +15,8 @@ export const theme = {
     },
   },
 };
-export const plugins = [nextui(), require("@tailwindcss/forms")];
+export const plugins = [
+  nextui(),
+  require("@tailwindcss/forms"),
+  require("tailwind-scrollbar"),
+];
