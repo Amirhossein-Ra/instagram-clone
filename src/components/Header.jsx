@@ -1,5 +1,6 @@
+"use client";
 import { Image } from "@nextui-org/react";
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillHome,
   AiOutlinePlusCircle,
@@ -10,6 +11,7 @@ export default function () {
   return (
     <div className="shadow-sm border-b sticky top-0 bg-white z-30">
       <div className="flex items-center justify-between mx-4 xl:mx-auto">
+
         <div className="cursor-pointer h-24 w-24 relative hidden lg:inline-grid  justify-center items-center">
           <Image
             src="https://logos-world.net/wp-content/uploads/2020/05/Instagram-Logo-2016-present.png"
